@@ -1,0 +1,159 @@
+initial: Welcome to Cooking Connoisseur. How can I help you today?
+final: Goodbye.
+quit: bye
+quit: goodbye
+quit: quit
+synon: substitute replace
+key: xnone
+  decomp: *
+    reasmb: I'm not sure I understand you fully.
+key: hello
+  decomp: *
+    reasmb: How do you do.  Please state your problem.
+    reasmb: Hi.  What seems to be your problem ?
+key: substitute
+  decomp: * butter *
+    reasmb: Equal amount margarine can replace salted butter.
+  decomp: * buttermilk *
+    reasmb: Equal amounts yogurt can replace buttermilk.
+    reasmb: A tablespoon of lemon juice or vinegar with enough milk to match the amount needed.
+  decomp: * beer *
+    reasmb: Equal amount chicken broth can replace beer.
+  decomp: * hazelnuts *
+    reasmb: Hazelnuts can be replaced with macadamia nuts.
+    reasmb: Hazelnuts can be replaced with almonds.
+  decomp: * eggs *
+    reasmb: Eggs can be replaced with mayonnaise.
+   	reasmb: Eggs can be replaced with mashed bananas.
+  decomp: * garlic *
+    reasmb: A clove or garlic can be replaced with 1/8 teaspoon of garlic powder.
+  decomp: * allspice *
+    reasmb: 1 teaspoon Allspice can be replaced with 1/2 teaspoon cinnamon.
+    reasmb: 1 teaspoon Allspice can be replaced with 1/4 teaspoon ginger.
+    reasmb: 1 teaspoon Allspice can be replaced with 1/4 teaspoon cloves.
+  decomp: * arrowroot *
+    reasmb: 1 teaspoon Arrowroot can be replaced with 1 tablespoon flour.
+    reasmb: 1 teaspoon Arrowroot can be replaced with 1 teaspoon cornstarch.
+  decomp: * Baking mix *
+    reasmb: 1 cup Baking mix can be replaced with 1 cup pancake mix.
+  decomp: * baking powder *
+    reasmb: 1 teaspoon Baking powder can be replaced with 1/4 teaspoon baking soda plus 1/2 teaspoon cream of tartar.
+  decomp: * baking soda *
+  decomp: * brandy *
+    reasmb: 1/4 cup Brandy can be replaced with 1 teaspoon imitation brandy extract plus enough water to make 1/4 cup.
+decomp: * brandy *
+    reasmb: 1/4 cup Brandy can be replaced with 1 teaspoon imitation brandy extract plus enough water to make 1/4 cup.
+  decomp: * bread crumbs *
+    reasmb: 1 cup Bread crumbs can be replaced with 1 cup cracker crumbs.
+    reasmb: 1 cup Bread crumbs can be replaced with 1 cup matzo meal.
+    reasmb: 1 cup Bread crumbs can be replaced with 1 cup ground oats.
+  decomp: * broth chicken or BEEF*
+    reasmb: 1 cup broth can be replaced with 1 bouillon cube plus 1 cup boiling water.
+    reasmb: 1 cup broth can be replaced with 1 tablespoon soy sauce plus enough water to make 1 cup.
+    reasmb: 1 cup broth crumbs can be replaced with 1 cup vegetable broth.
+  decomp: * brown sugar *
+    reasmb: 1 cup packed brown sugar can be replaced with 1 cup white sugar plus 1/4 cup molasses and decrease the liquid in recipe by 1/4 cup.
+    reasmb: 1 cup packed brown sugar can be replaced with 1 cup white sugar.
+    reasmb: 1 cup packed brown sugar can be replaced with 1 1/4 cups confectioners' sugar.
+  decomp: * unsalted butter *
+    reasmb: 1 cup unsalted butter can be replaced with 1 cup margarine.
+    reasmb: 1 cup unsalted butter can be replaced with 1 cup shortening plus 1/2 teaspoon salt.
+    reasmb: 1 cup unsalted butter can be replaced with 7/8 cup vegetable oil plus 1/2 teaspoon salt.
+    reasmb: 1 cup unsalted butter can be replaced with 7/8 cup lard plus 1/2 teaspoon salt
+
+  decomp: * cheddar cheese *
+    reasmb: 1 cup cheddar cheese can be replaced with 1 cup shredded Colby cheddar.
+    reasmb: 1 cup cheddar cheese can be replaced with 1 cup shredded Monterey Jack cheese.
+  decomp: * chervil *
+    reasmb: 1 tablespoon chervil can be replaced with 1 tablespoon chopped fresh parsley.
+    reasmb: 1 cup chervil can be replaced with 1 cup matzo meal.
+    reasmb: 1 cup chervil can be replaced with 1 cup ground oats.
+  decomp: * chicken base *
+    reasmb: 1 tablespoon chicken base can be replaced with 1 cup canned or homemade chicken broth or stock. Reduce liquid in recipe by 1 cup.
+  decomp: * unsweetened chocolate *
+    reasmb: 1 cup unsweetened chocolate can be replaced with 1 (1-ounce) square of unsweetened chocolate plus 4 teaspoons sugar.
+    reasmb: 1 cup unsweetened chocolate can be replaced with 1 ounce semisweet chocolate chips plus 1 teaspoon shortening.
+  decomp: * semisweet chocolate *
+     reasmb: 1 cup semisweet chocolate can be replaced with 1 cup cracker crumbs.
+    reasmb: 1 cup semisweet chocolate can be replaced with 1 cup matzo meal.
+    reasmb: 1 cup semisweet chocolate can be replaced with 1 cup ground oats.
+  decomp: * chocolate *
+    reasmb: semisweet or unsweetened.
+  decomp: * cocoa *
+    reasmb: 1 cup cocoa can be replaced with 1 cup cracker crumbs.
+    reasmb: 1 cup cocoa can be replaced with 1 cup matzo meal.
+    reasmb: 1 cup cocoa can be replaced with 1 cup ground oats.
+  decomp: * Condensed cream of mushroom soup *
+    reasmb: 1 cup Condensed cream of mushroom soup can be replaced with 1 cup cracker crumbs.
+    reasmb: 1 cup Condensed cream of mushroom soup can be replaced with 1 cup matzo meal.
+    reasmb: 1 cup Condensed cream of mushroom soup can be replaced with 1 cup ground oats.
+  decomp: * Cornstarch *
+    reasmb: 1 cup Cornstarch can be replaced with 2 tablespoons flour.
+  decomp: * Corn syrup *
+    reasmb: 1 cup Corn syrup can be replaced with 1 1/4 cup white sugar plus 1/3 cup water.
+    reasmb: 1 cup Corn syrup can be replaced with 1 cup honey.
+    reasmb: 1 cup Corn syrup can be replaced with 1 cup light treacle syrup.
+  decomp: * Cottage cheese *
+    reasmb: 1 cup Cottage cheese can be replaced with 1 cup farmer's cheese.
+    reasmb: 1 cup Cottage cheese can be replaced with 1 cup ricotta cheese.
+  decomp: * Cracker crumbs *
+    reasmb: 1 cup Cracker crumbs can be replaced with 1 cup bread crumbs.
+    reasmb: 1 cup Cracker crumbs can be replaced with 1 cup matzo meal.
+    reasmb: 1 cup Cracker crumbs can be replaced with 1 cup ground oats.
+  decomp: * Cream (half and half) *
+    reasmb: 1 cup Cream (half and half) can be replaced with 7/8 cup milk plus 1 tablespoon butter.
+  decomp: * Cream (heavy) *
+    reasmb: 1 cup Cream (heavy) can be replaced with 1 cup 1 cup evaporated milk.
+    reasmb: 1 cup Cream (heavy) can be replaced with 3/4 cup milk plus 1/3 cup butter.
+  decomp: * Cream (light) *
+     reasmb: 1 cup Cream (light) can be replaced with 1 cup evaporated milk.
+    reasmb: 1 cup Cream (light) can be replaced with 3/4 cup milk plus 3 tablespoons butter .
+  decomp: * Cream (whipped) *
+    reasmb: 1 cup Cream (whipped) can be replaced with 1 cup frozen whipped topping, thawed.
+  decomp: * Cream of tartar *
+    reasmb: 1 teaspoon Cream of tartar can be replaced with 2 teaspoons lemon juice or vinegar.
+  decomp: * Crème fraiche *
+    reasmb: 1 cup Crème fraiche can be replaced with Combine 1 cup of heavy cream and 1 tablespoon of plain yogurt. Let stand for 6 hours at room temperature.
+  decomp: * Evaporated milk *
+    reasmb: 1 cup Evaporated milk can be replaced with 1 cup light cream.
+  decomp: * Farmer's cheese *
+    reasmb: 8 ounces Farmer's cheese can be replaced with dry cottage cheese.
+    reasmb: 8 ounces Farmer's cheese can be replaced with ounces creamed cottage cheese, drained.
+  decomp: * Fats for baking *
+    reasmb: 1 cup Fats for baking can be replaced with 1 cup applesauce.
+    reasmb: 1 cup Fats for baking can be replaced with 1 cup fruit puree.
+key: replace
+  decomp: *
+    reasmb: goto substitute
+key: convert
+  decomp: * cup * oz
+	reasmb: One cup is 8 ounces.
+  decomp: * cups * pint
+  reasmb: Two cups is 1 pint.
+  decomp: * cups * oz
+  reasmb: Two cups is 16 ounces.
+  decomp: * tsp * tbsp
+  reasmb: 1 tsp is 1/3 tbsp.
+  decomp: * tbsp * tsp
+  reasmb: 1 tbsp is 3 tsp.
+  decomp: * pint * oz
+  reasmb: 1 pint is 16 ounces.
+  decomp: * pint * cups
+  reasmb: 1 pint is 2 cups.
+  decomp: * quarts * pint
+  reasmb: 1 quart is 2 pints.
+  decomp: * gallon * quarts
+  reasmb: 1 gallon is 4 quarts.
+  decomp: * gallon * oz
+  reasmb: 1 gallon is 154 ounces.
+  decomp: * tbsp * cups
+  reasmb: 16 tbsp is 1 cup.
+  decomp: * cups * ml
+  reasmb: 1 cup is 240 ml.
+  decomp: * tbsp * ml
+  reasmb: 1 tbsp is 15 ml.
+key: what
+  decomp: * is *
+	reasmb: goto convert
+
+   
